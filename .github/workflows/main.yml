@@ -16,7 +16,7 @@ jobs:
   build_openwrt:
     # The type of runner that the job will run on
     name: Build OpenWrt and release
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-16.04
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
